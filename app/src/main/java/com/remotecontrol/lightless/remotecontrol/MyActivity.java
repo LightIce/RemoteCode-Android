@@ -63,7 +63,7 @@ public class MyActivity extends Activity {
             public void run() {
                 String result;
                 try {
-                    URL url = new URL("http://lightless.cn/RemoteControl/SendCode.php?sec-code=lxy&code=RC_LOCK_SCREEN");
+                    URL url = new URL("http://xxxxx/RemoteControl/SendCode.php?sec-code=xxxxx&code=RC_LOCK_SCREEN");
                     HttpURLConnection httpConnect = (HttpURLConnection)url.openConnection();
                     httpConnect.connect();
 
